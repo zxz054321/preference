@@ -1,0 +1,35 @@
+{
+    "name": "abelhalo/preference",
+    "description": "A simple preference package for Laravel",
+    "keywords": [
+        "laravel"
+    ],
+    "homepage": "https://github.com/zxz054321/preference",
+    "authors": [
+        {
+            "name": "Abel",
+            "email": "zxz054321@foxmail.com",
+            "homepage": "https://github.com/zxz054321"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbelHalo\\Preference\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbelHalo\\Preference\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
