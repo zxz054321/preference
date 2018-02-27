@@ -16,9 +16,17 @@
         "php": ">=7.0.0",
         "laravel/framework": "5.5.*"
     },
+    "require-dev": {
+        "orchestra/testbench": "~3.0"
+    },
     "autoload": {
         "psr-4": {
             "AbelHalo\\Preference\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "extra": {
