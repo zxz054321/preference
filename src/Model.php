@@ -7,6 +7,13 @@ use Illuminate\Database\Eloquent\Model as BaseModel;
 class Model extends BaseModel
 {
     /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'preferences';
+
+    /**
      * The primary key for the model.
      *
      * @var string
